@@ -158,7 +158,7 @@ const GifPicker = ({ search, onPick }: { search: string; onPick: (gif: Gif) => v
 				/>
 			</div>
 
-			<div ref={targetRef} className='h-px' />
+			<div ref={targetRef} className='h-px relative -top-2' />
 		</div>
 	);
 };
