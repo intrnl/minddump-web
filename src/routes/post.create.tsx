@@ -277,7 +277,7 @@ const PostCreatePage = () => {
 
 	return (
 		<>
-			<div className='flex gap-4 px-6 pt-6 mb-4'>
+			<div className='flex gap-4 h-17 px-6 pt-6 mb-4'>
 				<div className='grow text-xl' aria-label='Create MindDump'>
 					<span>Create{' '}</span>
 

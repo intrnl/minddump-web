@@ -6,6 +6,9 @@ export default {
 			colors: {
 				accent: '#c3f400',
 			},
+			spacing: {
+				17: '4.25rem',
+			},
 		},
 		fontFamily: {
 			sans: `"Roboto", ui-sans-serif, sans-serif`,
