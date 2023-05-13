@@ -102,6 +102,7 @@ const IndexPage = () => {
 								onChange={(ev) => setSearch(ev.currentTarget.value)}
 								placeholder='Search'
 								className='text-xl grow'
+								autoFocus
 							/>
 
 							<button
