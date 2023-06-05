@@ -40,6 +40,7 @@ export class Locker<T> {
 				this.pending.push({ resolve, reject });
 			}
 			else {
+				this.locked = true;
 				resolve(this.handle);
 			}
 		});
