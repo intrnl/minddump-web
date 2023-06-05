@@ -142,9 +142,7 @@ const IndexPage = () => {
 			</div>
 
 			<div className='grow p-6 pb-0'>
-				{data && data.length < 1 && (
-					<div>It's empty here</div>
-				)}
+				{data && data.length < 1 && <div>It's empty here</div>}
 
 				<Masonry
 					key={debouncedSearch}
